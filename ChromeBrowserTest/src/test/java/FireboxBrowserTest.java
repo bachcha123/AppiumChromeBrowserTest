@@ -10,4 +10,9 @@ public void testSafari()
 	System.out.println("Safari opened");
 
 }
+public void testIE()
+{
+	System.out.println("Safari opened");
+
+}
 }
