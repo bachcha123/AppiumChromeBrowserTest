@@ -12,7 +12,12 @@ public void testSafari()
 }
 public void testIE()
 {
-	System.out.println("Safari opened");
+	System.out.println("IE opened");
+
+}
+public void testOpera()
+{
+	System.out.println("Opera opened");
 
 }
 }
