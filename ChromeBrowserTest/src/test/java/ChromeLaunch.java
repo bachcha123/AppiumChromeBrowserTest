@@ -24,7 +24,14 @@ public class ChromeLaunch {
 		// dc.setCapability("appActivity","com.google.android.apps.chrome.");
 		driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), dc);
 		
+		String data[]={"Dinesh","Chandra","Yadav"};
+		for (int i = 0; i < data.length; i++) {
+			System.out.println(data[i]);
+		}
+		
 		fbtest.testFirefox();
+		
+		
 		
 	}
 
