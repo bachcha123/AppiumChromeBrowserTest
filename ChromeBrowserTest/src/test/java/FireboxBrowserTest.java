@@ -20,4 +20,10 @@ public void testOpera()
 	System.out.println("Opera opened");
 
 }
+
+public void testUC()
+{
+	System.out.println("UC opened");
+
+}
 }
